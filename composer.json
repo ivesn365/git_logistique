@@ -1,0 +1,20 @@
+{
+  "name": "ccet/logistique",
+  "description": "Application web de gestion logistique en PHP.",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "classmap": [
+      "Models/"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
